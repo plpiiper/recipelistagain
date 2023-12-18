@@ -334,3 +334,18 @@ div {
   cursor: pointer;
   background-color: grey;
 }
+
+
+
+.category-page {
+
+}
+.category-page h2 {
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+.recipeList {
+  border: 1px solid black;
+  margin: 1rem;
+  width: calc(100% - 2rem);
+}

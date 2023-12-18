@@ -19,7 +19,7 @@ export default function Category({ catData }) {
 
             <SiteNav />
             <div className="category-page">
-                <h1>{catData.name}</h1>
+                <h2>{catData.name}</h2>
                 <RecipeList Recipes={rl}/>
             </div>
         </>

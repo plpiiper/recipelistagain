@@ -21,12 +21,12 @@
           {
             "key": "red_meat",
             "text": "Red Meat",
-            "href": "/categories/red-meat"
+            "href": "/category/red-meat"
           },
           {
             "key": "chicken",
             "text": "Chicken",
-            "href": "/categories/chicken"
+            "href": "/category/chicken"
           }
         ]
       }
