@@ -12,13 +12,7 @@ export default function Home() {
       <NextUIProvider>
           <SiteNav />
         <main id="home">
-        <div className="left">
-            <SearchSection />
-            <RecipeList Recipes={Data.recipelist} Filters={{type: ["fish"]}}/>
-        </div>
-        <div className="right">
-            <FavoriteList />
-        </div>
+            <h2>MANAGE</h2>
         </main>
       </NextUIProvider>
   )
