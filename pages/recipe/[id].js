@@ -5,13 +5,6 @@ import SiteNav from "@/components/Navbar";
 import IngredientList from "@/components/IngredientList";
 import StepList from "@/components/StepList";
 
-import { Metadata } from 'next';
-
-export const metadata = {
-    title: '...',
-    description: '...',
-}
-
 
 export default function Recipe({ recipe }) {
     const r = recipe;
