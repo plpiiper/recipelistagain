@@ -18,7 +18,7 @@ export default function Ingredient({Data}){
                 <div className="ingredient-ingredient">{ig.ingredient ? ig.ingredient : ""}</div>
             </div>
             {ig.comment ? (<div className="ingredient-comments-div">
-                {ig.comment.map(x => <div className="ingredient-comment">{x}</div>)}
+                {ig.comment.map(x => <div className="ingredient-comment" key={crypto.randomUUID()}>{x}</div>)}
                 </div>) : <></>
             }
         </>
