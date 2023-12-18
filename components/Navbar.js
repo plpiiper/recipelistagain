@@ -34,7 +34,7 @@ export default function SiteNav(){
                             <DropdownSection title={x.title} key={x.key} showDivider className="navbar-dropdown-section">
                                 {x.items.map(y => (
                                     <DropdownItem
-                                        key={y.key}
+                                        key={"dp-"+y.key}
                                         description={y.description ? y.description : undefined}
                                         startContent={
                                             y.startContent ? (<span className="material-symbols-outlined">{y.startContent}</span>) : undefined}
