@@ -19,7 +19,7 @@
         "title": "Categories",
         "items": [
           {
-            "key": "red_meat",
+            "key": "red-meat",
             "text": "Red Meat",
             "href": "/category/red-meat"
           },

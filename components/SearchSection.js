@@ -33,6 +33,7 @@ export default function SearchSection(){
                                     description={y.description ? y.description : undefined}
                                     startContent={
                                         y.startContent ? (<span className="material-symbols-outlined">{y.startContent}</span>) : undefined}
+                                        y.startContent ? (<span className="material-symbols-outlined">{y.startContent}</span>) : undefined}
                                     className="navbar-dropdown-item"
                                 >
                                     {y.text}
