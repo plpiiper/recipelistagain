@@ -42,7 +42,7 @@ export default function Home() {
 
             <div id="search-section">
                 <div className="search-section-main">Categories</div>
-                <div className="search-section-all"><a>ALL</a></div>
+                <div className="search-section-all"><button onClick={() => setSelectedType({})}>ALL</button></div>
                 <div className="search-section-dropdown">
                     <Dropdown className="navbar-dropdown">
                         <DropdownTrigger>
