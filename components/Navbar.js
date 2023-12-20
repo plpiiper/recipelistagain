@@ -2,6 +2,24 @@ import Data from "@/Data/Data.json"
 import {  Navbar,   NavbarBrand,   NavbarContent,   NavbarItem,   NavbarMenuToggle,  NavbarMenu,  NavbarMenuItem, Link, Button, DropdownItem, DropdownTrigger, Dropdown, DropdownMenu, DropdownSection} from "@nextui-org/react";
 
 export default function SiteNav(){
+    let cats = [];
+    for (var i=0; i<Data.recipelist.length; i++){
+        if (!cats.includes(Data.recipelist[i].cat)){cats.push(Data.recipelist[i].cat)}
+    }
+    cats = cats.sort();
+    cats = cats.map(x => {
+        return {
+            key: x.toLowerCase().replaceAll(" ","-"),
+            text: x,
+            href: "/category/"+x.toLowerCase().replaceAll(" ","-")
+        }
+    })
+    let cr = {
+        key: "categories",
+        title: "Categories",
+        items: cats
+    }
+    const drop = [Data.dropdown.items[0],cr]
 
     return (<div id="NavMain">
         <Navbar className="NavMain-Bar">
@@ -30,7 +48,7 @@ export default function SiteNav(){
                         }}
                         size={"lg"}
                     >
-                        {Data.dropdown.items.map(x => (
+                        {drop.map(x => (
                             <DropdownSection title={x.title} key={x.key} showDivider className="navbar-dropdown-section">
                                 {x.items.map(y => (
                                     <DropdownItem
