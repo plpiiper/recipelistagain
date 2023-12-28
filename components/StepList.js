@@ -4,7 +4,7 @@ export default function StepList({Recipe}){
     const sl = Recipe.steps;
     let len = [];
     for (var i=0; i<sl.length; i++){
-        len.push(<Step key={crypto.randomUUID()} id={"step-"+i} Step={i} Data={sl[i]} />)
+        len.push(<Step key={crypto.randomUUID()} id={"step-"+(i+1)} Step={(i+1)} Data={sl[i]} />)
     }
 
     return (<div className="steps-list">

@@ -4,7 +4,7 @@ export default function Ingredient({Data}){
 
     if (ig.type){ // alt-cat-etc
         return (<div className="ingredient-category-div">
-            <div className="ingredient-category-header">{ig.type.toUpperCase()}</div>
+            <div className="ingredient-category-header">{ig.type.toUpperCase() + (ig.name ? (": " + ig.name) : " ")}</div>
             <div className="ingredient-category-body">
                 {ig.ingredients.map(x => <Ingredient key={crypto.randomUUID()} Data={x} />)}
             </div>
