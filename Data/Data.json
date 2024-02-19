@@ -563,7 +563,7 @@
               "size": "Cup",
               "ingredient": "Soy Sauce",
               "comment": [
-                "(Low sodium)"
+                "Low sodium"
               ]
             },
             {
@@ -682,7 +682,7 @@
             {
               "ingredient": "Butter",
               "comment": [
-                "(Unsalted)"
+                "Unsalted"
               ]
             },
             {
@@ -810,22 +810,22 @@
               "amount": 12,
               "ingredient": "Black Peppercorn",
               "comment": [
-                "(Lightly crushed)"
+                "Lightly crushed"
               ]
             },
             {
               "amount": 6,
               "ingredient": "Allspice Berries",
               "comment": [
-                "(Lightly crushed)"
+                "Lightly crushed"
               ]
             },
             {
               "amount": 8,
               "ingredient": "Pork Chops",
               "comment": [
-                "(4-5 ounces each)",
-                "-Thin, bone-in-"
+                "4-5 ounces each",
+                "Thin, bone-in"
               ]
             },
             {
@@ -847,7 +847,7 @@
               "size": "Teaspoons",
               "ingredient": "Lemon Zest",
               "comment": [
-                "(Grated)"
+                "Grated"
               ]
             },
             {
@@ -869,7 +869,7 @@
                   "size": "Ounces",
                   "ingredient": "Baby Arugula",
                   "comment": [
-                    "-About 4 cups-"
+                    "About 4 cups"
                   ]
                 },
                 {
@@ -878,7 +878,7 @@
                 {
                   "ingredient": "Parsley",
                   "comment": [
-                    "-Leaves-"
+                    "Leaves"
                   ]
                 },
                 {
@@ -887,7 +887,7 @@
                 {
                   "ingredient": "Pecorino Cheese",
                   "comment": [
-                    "(Optionally)"
+                    "Optionally"
                   ]
                 }
               ]
@@ -1095,7 +1095,7 @@
               "size": "Ounce",
               "ingredient": "Pearl Onions",
               "comment": [
-                "(Basket)"
+                "Basket"
               ]
             },
             {
@@ -1103,7 +1103,7 @@
               "size": "Cup",
               "ingredient": "Basket Pearl Onions",
               "comment": [
-                "(frozen)"
+                "Frozen"
               ]
             }
           ]
@@ -1129,7 +1129,7 @@
               "size": "Cup",
               "ingredient": "Fava Beans",
               "comment": [
-                "(peeled)"
+                "Peeled"
               ]
             },
             {
@@ -1137,7 +1137,7 @@
               "size": "Cup",
               "ingredient": "Lima Beans",
               "comment": [
-                "(frozen)"
+                "Frozen"
               ]
             }
           ]
@@ -1168,7 +1168,7 @@
               "size": "6-oz",
               "ingredient": "Veal Loin Chops",
               "comment": [
-                "(thin-sliced)"
+                "Thin-sliced"
               ]
             },
             {
@@ -1458,7 +1458,7 @@
               "amount": 8,
               "ingredient": "Chicken Thighs",
               "comment": [
-                "(Bone-in, skin-on)"
+                "Bone-in, skin-on"
               ]
             }
           ]
@@ -3910,10 +3910,10 @@
             {
               "amount": 1,
               "size": "Large",
-              "ingredient": "Cucumbers",
+              "ingredient": "English Cucumbers",
               "comment": [
-                "(English, Thin-skinned)",
-                "-Chopped-"
+                "Thin-skinned",
+                "Chopped"
               ]
             }
           ]
@@ -4305,7 +4305,7 @@
               "size": "Tablespoon",
               "ingredient": "White Vinegar",
               "comment": [
-                "(Distilled)"
+                "Distilled"
               ]
             },
             {
@@ -4313,7 +4313,7 @@
               "size": "Tablespoon",
               "ingredient": "Rice Vinegar",
               "comment": [
-                "(Unseasoned)"
+                "Unseasoned"
               ]
             }
           ]
@@ -4456,7 +4456,7 @@
           "ingredient": "Ginger",
           "comment": [
             "Fresh, Peeled and julienned (about 1 1/2 Tablespoons",
-            "(1-inch)"
+            "1-inch"
           ]
         },
         {
@@ -4806,8 +4806,8 @@
               "amount": "10-15",
               "ingredient": "Rice Cakes",
               "comment": [
-                "(Cylindrical,Frozen)",
-                "-Optional-"
+                "Cylindrical, Frozen",
+                "Optional"
               ]
             },
             {
@@ -4954,7 +4954,7 @@
           "ingredient": "Clams",
           "comment": [
             "Baby, Whole, With their juices",
-            "(10-ounce)"
+            "10-ounce"
           ]
         },
         {
@@ -5351,7 +5351,7 @@
           "ingredient": "White Beans",
           "comment": [
             "Drained and rinsed",
-            "(15-ounce)"
+            "15-ounce"
           ]
         },
         {
@@ -7122,6 +7122,66 @@
         "Place skillet in oven and cook until cooked through (145° for medium), 10-12 minutes. Serve with more garlic butter."
       ],
       "id": "6532DDRI"
+    },
+    {
+      "name": "Brown Sugar Garlic Pork Chops",
+      "cat": "Pork",
+      "ingredients": [
+        [
+          "5",
+          "Thick-cut",
+          "Pork Chops"
+        ],
+        "Salt",
+        "Pepper",
+        [
+          "1",
+          "tbs",
+          "extra-virgin olive oil"
+        ],
+        [
+          "4",
+          "tbs",
+          "butter"
+        ],
+        [
+          "1/4",
+          "cup",
+          "Packed Light Brown Sugar"
+        ],
+        [
+          "3",
+          "Minced Garlic Cloves"
+        ],
+        [
+          "1/2",
+          "tsp",
+          "Crushed Red Pepper Flakes"
+        ],
+        [
+          "1/2",
+          "tsp ",
+          "Paprika"
+        ],
+        [
+          "1/4",
+          "tsp",
+          "Dried Thyme"
+        ]
+      ],
+      "steps": [
+        "Note: Boneless pork chops can be used. They will cook a little faster.",
+        "Preheat oven to 400 degrees. Pat pork chops dry with paper towels and season both sides with salt and pepper.",
+        "Heat oil over medium-high heat in an oven-proof skillet. (Cast iron or stainless steel)",
+        "When oil is hot, add pork chops. Cook for 5 minutes, flip over, and cook for 4 minutes. Remove from skillet and cover to keep warm.",
+        "Turn heat down to medium-low and add butter.",
+        "When butter is melted, add brown sugar, garlic, red pepper flakes, paprika, and thyme.",
+        "Cook for 1 minute.",
+        "Return pork chops to skillet and spoon butter mixture over them.",
+        "Bake for 10-14 minutes or until pork chops reach an internal temperature of 145 degrees. You can pull it out of the oven when it is a few degrees below 145. The temperature will rise a few degrees.",
+        "Plate pork chops and spoon sauce over them."
+      ],
+      "id": "5947AJVE"
     }
   ],
   "categories": [
