@@ -7127,47 +7127,51 @@
       "name": "Brown Sugar Garlic Pork Chops",
       "cat": "Pork",
       "ingredients": [
-        [
-          "5",
-          "Thick-cut",
-          "Pork Chops"
-        ],
-        "Salt",
-        "Pepper",
-        [
-          "1",
-          "tbs",
-          "extra-virgin olive oil"
-        ],
-        [
-          "4",
-          "tbs",
-          "butter"
-        ],
-        [
-          "1/4",
-          "cup",
-          "Packed Light Brown Sugar"
-        ],
-        [
-          "3",
-          "Minced Garlic Cloves"
-        ],
-        [
-          "1/2",
-          "tsp",
-          "Crushed Red Pepper Flakes"
-        ],
-        [
-          "1/2",
-          "tsp ",
-          "Paprika"
-        ],
-        [
-          "1/4",
-          "tsp",
-          "Dried Thyme"
-        ]
+        {
+          "amount": "5",
+          "size": "Thick-cut",
+          "ingredient": "Pork Chops"
+        },
+        {
+          "ingredient": "Salt"
+        },
+        {
+          "ingredient": "Pepper"
+        },
+        {
+          "amount": "1",
+          "size": "tbs",
+          "ingredient": "extra-virgin olive oil"
+        },
+        {
+          "amount": "4",
+          "size": "tbs",
+          "ingredient": "butter"
+        },
+        {
+          "amount": "1/4",
+          "size": "cup",
+          "ingredient": "Packed Light Brown Sugar"
+        },
+        {
+          "amount": "3",
+          "ingredient": "Minced Garlic Cloves"
+        },
+        {
+          "amount": "1/2",
+          "size": "tsp",
+          "ingredient": "Crushed Red Pepper Flakes"
+        },
+        {
+          "amount": "1/2",
+          "size": "tsp ",
+          "ingredient": "Paprika"
+        },
+        {
+          "amount": "1/4",
+          "size": "tsp",
+          "ingredient": "Dried Thyme"
+        }
       ],
       "steps": [
         "Note: Boneless pork chops can be used. They will cook a little faster.",
@@ -7181,7 +7185,7 @@
         "Bake for 10-14 minutes or until pork chops reach an internal temperature of 145 degrees. You can pull it out of the oven when it is a few degrees below 145. The temperature will rise a few degrees.",
         "Plate pork chops and spoon sauce over them."
       ],
-      "id": "5947AJVE"
+      "id": "9374AHCD"
     }
   ],
   "categories": [
